@@ -27,6 +27,8 @@ img {
 
 .aboutme {
     display: flex;
+    flex-direction: column;
+    float: left;
 }
 
 main {
@@ -42,6 +44,8 @@ main {
 }
 
 aside, .connectwithme {
+    display: flex;
+    flex-direction: column;
     float: right;
     padding: 20px;
     border: 20px;
