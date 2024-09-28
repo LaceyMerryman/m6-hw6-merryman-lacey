@@ -29,9 +29,11 @@ img {
 }
 
 .aboutme {
-    display: flex;
-    flex-direction: column;
-    float: left;
+    margin-right: auto;
+}
+
+.connectwithme {
+    margin-left: auto;
 }
 
 main {
