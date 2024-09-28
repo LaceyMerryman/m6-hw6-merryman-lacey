@@ -2,7 +2,7 @@ body {
     background-image: ("spikes.png");
     font-family: 'Courier New', Courier, monospace;
     max-width: 900px;
-    display: block;
+    display: flex;
     margin: 24 px auto;
 }
 
@@ -25,12 +25,16 @@ img {
     padding: 15px;
 }
 
+.aboutme {
+    display: flex;
+}
+
 main {
     float: left;            
     padding: 20px;
     border: 20px;
     background-color: aliceblue;
-    display: block;
+    display: flex;
     max-width: 500px;
     margin: auto;
     color: black;
