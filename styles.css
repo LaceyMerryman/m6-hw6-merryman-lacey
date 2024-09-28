@@ -1,5 +1,5 @@
 body {
-    background-image: ("spikes.png");
+    background-image: ("images/spikes.png");
     font-family: 'Courier New', Courier, monospace;
     max-width: 900px;
     display: flex;
@@ -25,15 +25,19 @@ img {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
 }
 
 .aboutme {
     margin-right: auto;
+    align-self: center
 }
 
 .connectwithme {
     margin-left: auto;
+    align-self: center;
 }
 
 main {
