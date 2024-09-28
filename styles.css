@@ -18,11 +18,14 @@ header > nav {
     word-spacing: 10px;
 }
 
-
-
 img {
     float: left;
     padding: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
 }
 
 .aboutme {
@@ -54,7 +57,6 @@ aside, .connectwithme {
     margin: auto;
     max-width: 300px;
     font-size: 15px;
-    display: block;
 }
 
 footer {
