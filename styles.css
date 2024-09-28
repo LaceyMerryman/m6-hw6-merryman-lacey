@@ -1,9 +1,10 @@
 body {
-    background-image: ("images/spikes.png");
+    background-image: url("images/spikes.png");
     font-family: 'Courier New', Courier, monospace;
+    height: auto;
     max-width: 900px;
     display: flex;
-    margin: 24 px auto;
+    margin: 20px;
 }
 
 header {
