@@ -1,19 +1,9 @@
 body {
-    background-image: url("spikes.png");
+    background-image: ("spikes.png");
     font-family: 'Courier New', Courier, monospace;
     max-width: 900px;
-    display: float;
+    display: block;
     margin: 24 px auto;
-}
-
-img {
-    float: left;
-    padding: 15px;
-}
-
-header > nav {
-    float: right;
-    word-spacing: 10px;
 }
 
 header {
@@ -23,19 +13,16 @@ header {
     font-size: 20px;
 }
 
-h1, nav {
-    background-color: white;
-    color: darkslategray;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    display: block;
+header > nav {
+    float: right;
+    word-spacing: 10px;
 }
 
-/* clearfix */
-main:: after {
-    content: "";
-    clear: both;
-    text-align: center;
-    display: block;
+
+
+img {
+    float: left;
+    padding: 15px;
 }
 
 main {
@@ -50,7 +37,7 @@ main {
     font-family: 'Courier New', Courier, monospace
 }
 
-aside {
+aside, .connectwithme {
     float: right;
     padding: 20px;
     border: 20px;
