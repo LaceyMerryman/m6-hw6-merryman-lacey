@@ -10,32 +10,30 @@ body {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 100px auto;
+    margin: 10px auto;
     max-width: 900 px;
     align-items: center;
 }
 
 .header {
     align-self: flex-start;
-    background-color: aliceblue;
+    background-color: white;
     color: black;
 }
 
 .nav {
     align-self: auto;
-    background-color: aliceblue;
+    background-color: white;
     color: black;
 }
 
 .aboutme {
-    align-self: baseline;
-    justify-items: right;
+    align-self: auto;
     margin: auto;
 }
 
 .connectwithme {
-    align-self: baseline;
-    justify-items: right;
+    align-self: flex-start;
     margin: auto;
 }
 
@@ -49,19 +47,20 @@ main, aside {
 
 header, nav {
     max-width: 900px;
-    float: left;
     text-align: center;
-    margin: 0 10px 10px 0;
 }
 
 main {
     max-width: 500px;
-    float: left;
 }
 
 aside {
     max-width: 400px;
-    float: right;
+}
+
+img {
+    float: left;
+    padding: 15px;
 }
 
 .image-container {
