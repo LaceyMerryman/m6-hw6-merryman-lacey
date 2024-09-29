@@ -3,75 +3,65 @@ body {
     font-family: 'Courier New', Courier, monospace;
     height: auto;
     max-width: 900px;
-    display: flex;
-    margin: 20px;
-}
-
-header {
-    text-align: left;
-    margin: 35px 10px 10px 35px;
-    padding: 20px 20px 20px 20px;
-    font-size: 20px;
-}
-
-header > nav {
-    float: right;
-    word-spacing: 10px;
-}
-
-img {
-    float: left;
-    padding: 15px;
+    margin: 20px 15px 15px 20px;
 }
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    max-width: 900 px;
     align-items: center;
-    width: 300px;
+}
+
+.header {
+    align-self: flex-start;
+    background-color: aliceblue;
+    color: black;
+}
+
+.nav {
+    align-self: auto;
+    background-color: aliceblue;
+    color: black;
 }
 
 .aboutme {
-    margin-right: auto;
-    align-self: center
+    align-self: baseline;
+    justify-items: right;
+    margin: auto;
 }
 
 .connectwithme {
-    margin-left: auto;
-    align-self: center;
+    align-self: baseline;
+    justify-items: right;
+    margin: auto;
+}
+
+main, aside {
+    background-color: aliceblue;
+    color: black;
+    margin: auto;
+    border: 20px;
+    padding: 20px;
+}
+
+header, nav {
+    max-width: 900px;
+    float: left;
+    text-align: center;
+    margin: 0 10px 10px 0;
 }
 
 main {
-    float: left;            
-    padding: 20px;
-    border: 20px;
-    background-color: aliceblue;
-    display: flex;
     max-width: 500px;
-    margin: auto;
-    color: black;
-    font-family: 'Courier New', Courier, monospace
+    float: left;
 }
 
-aside, .connectwithme {
-    display: flex;
-    flex-direction: column;
+aside {
+    max-width: 400px;
     float: right;
-    padding: 20px;
-    border: 20px;
-    background-color: aliceblue;
-    color: black;
-    margin: auto;
-    max-width: 300px;
-    font-size: 15px;
-}
-
-footer {
-    float: none;
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .image-container {
@@ -89,4 +79,10 @@ footer {
 
 .image-container img:hover {
     transform: scale(1.05);
+}
+
+.footer {
+    margin: auto;
+    padding: 20px;
+    align-self: flex-end;
 }
